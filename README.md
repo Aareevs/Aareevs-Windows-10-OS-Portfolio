@@ -195,3 +195,9 @@ This project also builds on open-source tools, libraries, and browser experiment
 - Website: [aareevsrinivasan.com](https://aareevsrinivasan.com)
 - GitHub: [@Aareevs](https://github.com/Aareevs)
 - Email: `aareevs@gmail.com`
+
+---
+
+<div align="center">
+<b>Source code stays hidden, not for public use.</b>
+</div>
