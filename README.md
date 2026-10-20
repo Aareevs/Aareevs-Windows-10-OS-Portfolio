@@ -1,8 +1,8 @@
-## 🌌 **Aareev's Windows 10 OS** 🌌
+## **Aareev's Windows 10 OS**
 
-<img width="1024" height="501" alt="image" src="https://github.com/user-attachments/assets/5f3a9e51-8535-4d3c-a44d-c64cccb30ea9" />
+![Aareev's Windows 10 OS Desktop Screenshot](./screenshot.webp)
 
-# System 🧠
+# System
 
 ### [File System](https://github.com/jvilk/BrowserFS)
 
@@ -35,7 +35,7 @@
 
 ## What This Is
 
-`AareevSrin OS` is my portfolio reimagined as a desktop environment.
+`Aareev Srinivasan Win10` is my portfolio reimagined as a desktop environment of the Windows 10 OS.
 
 Instead of a standard landing page, this project opens like a personal operating system with a boot flow, login screen, draggable windows, taskbar, start menu, desktop shortcuts, wallpapers, apps, media tools, and interactive projects.
 
@@ -82,7 +82,7 @@ It is both a portfolio and a product-like frontend experiment.
 - `jspaint`
 - `pdf.js`
 - `Webamp`
-- `TinyMCE`
+- `WordCraft`
 
 ### Testing + Tooling
 
@@ -111,41 +111,9 @@ This portfolio includes a large in-browser app surface, including:
 - `Spotify`
 - `Messenger`
 - `Monaco Editor`
-- `TinyMCE`
+- `WordCraft`
 - `Webamp`
 - `Emulator / retro app experiences`
-
----
-
-## Local Development
-
-### Requirements
-
-- `Node.js`
-- `npm` or `yarn`
-
-### Install
-
-```bash
-npm install --legacy-peer-deps
-```
-
-### Run locally
-
-```bash
-npm run build:prebuild
-npm run dev -- -p 3001
-```
-
-Open `http://localhost:3001`.
-
-### Production export
-
-```bash
-npm run build
-```
-
-The static site is generated in `out/`.
 
 ---
 
@@ -154,21 +122,6 @@ The static site is generated in `out/`.
 - The site is deployed via `GitHub Pages`
 - Large media files and ROM-sized assets should live outside the repo if they exceed GitHub's file limits
 - Small desktop assets, wallpapers, icons, and source code remain in the repository
-
----
-
-## Project Structure
-
-```text
-components/   App windows, taskbar, desktop, login, and system UI
-contexts/     Session, filesystem, process, menu, and viewport state
-pages/        Next.js entry points
-public/       Icons, wallpapers, app assets, desktop files, and static resources
-scripts/      Search indexing, file tree generation, icon preload, and build helpers
-styles/       Global styling, theme tokens, shared UI styles
-utils/        Media, search, ffmpeg, imagemagick, and helper utilities
-e2e/          Playwright coverage for desktop and app behavior
-```
 
 ---
 
@@ -184,7 +137,7 @@ This one lets you explore them through a full desktop interface with its own atm
 
 ## Credits
 
-This project also builds on open-source tools, libraries, and browser experiments that made the desktop-style experience possible. A condensed credits list is available in [`public/CREDITS.md`](./public/CREDITS.md).
+This project also builds on open-source tools, libraries, and browser experiments that made the desktop-style experience possible. You can find the full credits inside the OS itself: open the **Credits** app from the Start Menu.
 
 ---
 
